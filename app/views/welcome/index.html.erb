@@ -11,9 +11,6 @@
     <div class="plans clearfix">
       <div class="col-lg-3 col-lg-offset-3 plan">
         <h2>Premium Plan</h2>
-        <div class="price pull-right">
-          Price: $10
-        </div>
       <div class="features">
         <ul>
           <li>Unlimited Image Uploads</li>
@@ -21,15 +18,15 @@
           <li>Access anywhere</li>
         </ul>
       </div>
+      <p class="price">
+        Price: $10
+      </p>
       <p>
         <%= link_to 'Sign Up', new_user_registration_path, class: 'btn btn-primary sign-up' %>
       </p>
     </div>
     <div class="col-lg-3 plan">
       <h2>Amaze Plan</h2>
-      <div class="price pull-right">
-        Price: $20
-      </div>
       <div class="features">
         <ul>
           <li>Unlimited Image Uploads</li>
@@ -38,6 +35,9 @@
           <li class='extra'>Unlimited projects</li>
         </ul>
       </div>
+      <p class="price">
+        Price: $20
+      </p>
       <p>
         <%= link_to 'Sign Up', new_user_registration_path, class: 'btn btn-primary sign-up' %>
       </p>
