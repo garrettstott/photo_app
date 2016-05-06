@@ -51,8 +51,12 @@
   }
 }
 
-.btn-primary:visited, .btn-danger:visited {
-  color: #fff;
+.btn-primary:visited, .btn-danger:visited, .btn-success {
+  color: #fff !important;
+}
+
+.btn-success {
+  color: #fff !important;
 }
 
 .features {
@@ -92,4 +96,12 @@
 .listing {
   list-style: none;
   padding-left: 0;
+}
+
+.show-image {
+  height: 350px;
+}
+
+.index-picture {
+  height: 50px;
 }
